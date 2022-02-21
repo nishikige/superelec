@@ -12,6 +12,7 @@ function Contact() {
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Contact - Super Elec</title>
+                <meta property="og:site_name" content={`Super Elec`}/>
                 <meta property="og:title" content="Contact - Super Elec"/>
                 <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${super_elec_logo_png}`}/>
                 <meta property="og:description" content="Contact"/>
