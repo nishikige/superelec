@@ -11,6 +11,7 @@ class ProjectWrapper extends React.Component {
                     <title>{this.props.project.name} - Super Elec</title>
                     <meta name="description" content={`Super Elec Project: ${this.props.project.name}`}></meta>
 
+                    <meta property="og:site_name" content={`Super Elec`}/>
                     <meta property="og:title" content={`${this.props.project.name} - Super Elec`}/>
                     <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${this.props.project.imageSrc[this.props.project.defaultImageNum]}`}/>
                     <meta property="og:description" content={`Super Elec Project: ${this.props.project.name}`}/>
