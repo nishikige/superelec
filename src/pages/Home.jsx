@@ -14,6 +14,8 @@ import qr_code from '../images/qr-code.png'
 function Home() {    
     return (
         <>
+        
+        <!--
         <Helmet>
             <meta charSet="utf-8" />        
             <title>Home - Super Elec</title>
@@ -25,6 +27,8 @@ function Home() {
             <meta property="og:url" content={`${import.meta.env.VITE_BASE_URL}`}/>
             <meta property="og:type" content="website"/>
         </Helmet>
+        -->
+        
         <div className="px-4 font-sans flex-grow mx-auto w-3/4 text-white">
             {/* <div className = "font-sans font-bold text-2xl"> Home page </div> */}
             <div className = "flex flex-box flex-col text-center">
