@@ -15,19 +15,17 @@ function Home() {
     return (
         <>
         
-        /*
         <Helmet>
             <meta charSet="utf-8" />        
             <title>Home - Super Elec</title>
             <meta name="description" content="The better ELSOC"></meta>
-
+            <meta property="og:site_name" content={`Super Elec`}/>
             <meta property="og:title" content={`Home - Super Elec`}/>
             <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${super_elec_logo_png}`}/>
             <meta property="og:description" content="The better ELSOC"/>
             <meta property="og:url" content={`${import.meta.env.VITE_BASE_URL}`}/>
             <meta property="og:type" content="website"/>
         </Helmet>
-        */
         
         <div className="px-4 font-sans flex-grow mx-auto w-3/4 text-white">
             {/* <div className = "font-sans font-bold text-2xl"> Home page </div> */}
