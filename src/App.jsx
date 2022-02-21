@@ -28,7 +28,7 @@ function App() {
         {Guides_Array.map((item, key) => (
           <Route path={`${item.path}`} exact render={() => <item.component/>} key={key}/>
           ))}
-        <Route component={Error404} />
+        <Route exact render={() => <Home />} />
       </Switch>
       <Footer/>
     </BrowserRouter>
