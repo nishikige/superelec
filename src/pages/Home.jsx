@@ -17,11 +17,11 @@ function Home() {
         <Helmet>
             <meta charSet="utf-8" />        
             <title>Home - Super Elec</title>
-            <meta name="description" content="Keyboards!"></meta>
+            <meta name="description" content="The better ELSOC"></meta>
 
             <meta property="og:title" content={`Home - Super Elec`}/>
             <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${super_elec_logo_png}`}/>
-            <meta property="og:description" content="Keyboards!"/>
+            <meta property="og:description" content="The better ELSOC"/>
             <meta property="og:url" content={`${import.meta.env.VITE_BASE_URL}`}/>
             <meta property="og:type" content="website"/>
         </Helmet>
