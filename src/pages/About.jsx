@@ -18,7 +18,7 @@ class Error404 extends React.Component {
             </Helmet>
             <div className="justify-items-center align-middle flex-grow max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-white">
                 <div className="inset-0">
-                    Just a bit of bantz
+                    Just a bit of bantz. Unlike ELSOC we have a website built from scratch and not some third party.
                 </div>
             </div>
             </>
