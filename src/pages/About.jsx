@@ -20,7 +20,7 @@ class Error404 extends React.Component {
             </Helmet>
             <div className="justify-items-center align-middle flex-grow max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-white">
                 <div className="inset-0">
-                    Just a bit of bantz. Unlike (UNSW) <a href="https://www.elsoc.net/">ELSOC</a>, we have a website built from scratch and not requiring some third party website platform.
+                    Just a bit of bantz. Unlike (UNSW) <a href="https://www.elsoc.net/">ELSOC</a>, we have a <b><i>running</i></b> website built from scratch and the website does not require some third party website platform to create it.
                 </div>
             </div>
             <div className = "flex flex-box flex-col text-center">
