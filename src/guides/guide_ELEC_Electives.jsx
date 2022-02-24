@@ -9,13 +9,13 @@ class Guide_ELEC_Electives extends React.Component {
         return(
             <>
             <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>Guide - UNSW ELEC Electives</title>
-                    <meta property="og:site_name" content={`Super Elec`}/>
-                    <meta property="og:title" content="UNSW ELEC Electives Guide - Super Elec"/>
-                    <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${super_elec_logo_png}`}/>
-                    <meta property="og:description" content="UNSW ELEC Electives Guide"/>
-                    <meta property="og:url" content={`${import.meta.env.VITE_BASE_URL}`}/>
+                <meta charSet="utf-8" />
+                <title>Elective Guide - Super Elec</title>
+                <meta property="og:site_name" content={`Super Elec`}/>
+                <meta property="og:title" content="Elective Guide - Super Elec"/>
+                <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${super_elec_logo_png}`}/>
+                <meta property="og:description" content="Elective Guide"/>
+                <meta property="og:url" content={`${import.meta.env.VITE_BASE_URL}`}/>
             </Helmet>
             <div className="justify-items-center align-middle flex-grow max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-white">
                 <iframe src="https://drive.google.com/file/d/1_0siUFsxsZpPaDiBHW2uOTQjbGrXG-Cp/preview" width="640" height="480" allow="autoplay"></iframe>
