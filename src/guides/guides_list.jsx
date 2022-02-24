@@ -1,3 +1,4 @@
+import guide_ELEC_Electives from './guide_ELEC_Electives'
 export default [
     {
         title: 'Unofficial guide to UNSW Electrical Engineering Electives',
