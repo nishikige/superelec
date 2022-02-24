@@ -18,7 +18,7 @@ class Guide_ELEC_Electives extends React.Component {
                 <meta property="og:url" content={`${import.meta.env.VITE_BASE_URL}`}/>
             </Helmet>
             <div className="justify-items-center align-middle flex-grow max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-white">
-                <iframe src="https://drive.google.com/file/d/1_0siUFsxsZpPaDiBHW2uOTQjbGrXG-Cp/preview" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/1_0siUFsxsZpPaDiBHW2uOTQjbGrXG-Cp/preview" width='100%' height='100%' allow="autoplay"></iframe>
             </div>
             </>
         );
