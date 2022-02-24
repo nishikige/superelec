@@ -17,7 +17,7 @@ class Guide_ELEC_Electives extends React.Component {
                 <meta property="og:description" content="Elective Guide"/>
                 <meta property="og:url" content={`${import.meta.env.VITE_BASE_URL}`}/>
             </Helmet>
-            <div className="justify-items-center align-middle flex-grow max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-white">
+            <div className="justify-items-center align-middle flex-grow max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-white" style={{display: 'flex', justify-content: 'center'}}>
                 <iframe src="https://drive.google.com/file/d/1_0siUFsxsZpPaDiBHW2uOTQjbGrXG-Cp/preview" style={{width:window.innerWidth*0.8,height:window.innerHeight*0.8}} allow="autoplay"></iframe>
             </div>
             </>
