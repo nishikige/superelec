@@ -4,7 +4,7 @@ export default [
         title: 'Unofficial guide to UNSW Electrical Engineering Electives',
         description: 'Unofficial guide to UNSW Electrical Engineering Electives',
         path: '/guides/ELEC_Electives',
-        component: guide_ELEC_Electives,
+        component: null,
     },
     {
         title: 'test2',
