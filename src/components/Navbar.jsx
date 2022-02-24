@@ -9,7 +9,7 @@ import Super_Elec_Logo from '../static/favicon.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
-  // { name: 'Guides', href: '/guides' }, maybe enable if we want actual guides done 
+  { name: 'Guides', href: '/guides' }, //maybe enable if we want actual guides done 
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
 ]
