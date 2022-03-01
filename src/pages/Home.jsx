@@ -17,8 +17,8 @@ function Home() {
         <Helmet>
             <meta charSet="utf-8" />        
             <title>Home - Super Elec</title>
-            <meta name="description" content="The better ELSOC! We are an unofficial discord group that focuses on electrical and electronic topics at UNSW!"></meta>
-            <meta name="keywords" content="ELSOC, UNSW, Electrical Engineering, Elec, Electronics, Electrical, Guide, Help, Discord">
+            <meta name="description" content="The better ELSOC! We are an unofficial discord group that focuses on electrical and electronic topics at UNSW!"/>
+            <meta name="keywords" content="ELSOC, UNSW, Electrical Engineering, Elec, Electronics, Electrical, Guide, Help, Discord"/>
             <meta property="og:site_name" content={`Super Elec`}/>
             <meta property="og:title" content={`Home - Super Elec`}/>
             <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${super_elec_logo_png}`}/>
