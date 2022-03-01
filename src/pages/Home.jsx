@@ -30,7 +30,7 @@ function Home() {
         <div className="px-4 font-sans flex-grow mx-auto w-3/4 text-white">
             {/* <div className = "font-sans font-bold text-2xl"> Home page </div> */}
             <div className = "flex flex-box flex-col text-center">
-                <h1>Welcome to Super Elec!</h1>
+                <h1 className = "font-sans font-bold font-italic text-2xl">Welcome to Super Elec!</h1>
                 <img className="self-center justify-center w-3/4 h-3/4 sm:w-1/3 sm:h-1/3 lg:w-1/4 lg:h-1/4" src={Super_Elec_Logo} alt="Super Elec" />
                 <Typed
                     strings={[
