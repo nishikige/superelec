@@ -14,7 +14,6 @@ import qr_code from '../images/qr-code.png'
 function Home() {    
     return (
         <>
-        
         <Helmet>
             <meta charSet="utf-8" />        
             <title>Home - Super Elec</title>
