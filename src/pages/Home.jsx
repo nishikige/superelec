@@ -18,6 +18,7 @@ function Home() {
             <meta charSet="utf-8" />        
             <title>Home - Super Elec</title>
             <meta name="description" content="The better ELSOC! We are an unofficial discord group that focuses on electrical and electronic topics at UNSW!"></meta>
+            <meta name="keywords" content="ELSOC, UNSW, Electrical Engineering, Elec, Electronics, Electrical, Guide, Help, Discord">
             <meta property="og:site_name" content={`Super Elec`}/>
             <meta property="og:title" content={`Home - Super Elec`}/>
             <meta property="og:image" content={`${import.meta.env.VITE_BASE_URL}${super_elec_logo_png}`}/>
@@ -29,6 +30,7 @@ function Home() {
         <div className="px-4 font-sans flex-grow mx-auto w-3/4 text-white">
             {/* <div className = "font-sans font-bold text-2xl"> Home page </div> */}
             <div className = "flex flex-box flex-col text-center">
+                <h1>Welcome to Super Elec!</h1>
                 <img className="self-center justify-center w-3/4 h-3/4 sm:w-1/3 sm:h-1/3 lg:w-1/4 lg:h-1/4" src={Super_Elec_Logo} alt="Super Elec" />
                 <Typed
                     strings={[
@@ -43,6 +45,8 @@ function Home() {
                     smartBackspace
                     loop />
             </div>
+            <br/>
+            <br/>
             <div className = "font-sans font-bold font-italic text-2xl"> We heard that ELSOC is finally getting their website,</div>
             <div data-type="countdown" data-id="3099601" class="tickcounter" style={{width: "100%", position: "relative", paddingBottom: "25%"}}><a href="//www.tickcounter.com/countdown/3099601/elsoc-website-launch" title="ELSOC Website Launch">ELSOC Website Launch</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div>
             <br/>
